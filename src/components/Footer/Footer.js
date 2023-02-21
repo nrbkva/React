@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <p className="title">Footer title</p>
+        {/* <p className="title">Footer title</p> */}
         Footer
       </div>
     </>

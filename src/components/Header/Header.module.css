@@ -1,10 +1,9 @@
 .header {
-  width: 100%;
-  height: 50px;
-  background-color: red;
-}
-
-.test{
-  color: yellowgreen;
-  background-color: red;
+  width: 100vh;
+  height: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -1,10 +1,14 @@
-
-
 function Header(props) {
-  const { title } = props;
+  const links = ['Главная,"Корзина","Профиль","О нас"'];
+  const { title, children } = props;
   return (
     <div className="{header}">
-      <h2 className="header">{title}</h2>
+      <div>
+        {links.map((el, id) => (
+          <li key={id}>{el}</li>
+        ))}
+      </div>
+      {children}
     </div>
   );
 }

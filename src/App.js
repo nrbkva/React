@@ -8,11 +8,13 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Header title={"Nurai"} />
+      <Header title={"Nurai"}>
+        <Button>Click</Button>
+      </Header>
       <Text title={"JavaScript"} />
-      <Button title={"Click me!"} />
+      {/* <Button title={"Click me!"} /> */}
       <Main text={"Lorem ipsum dolor sit amet"} />
-      <Button title={"follow"} />
+      {/* <Button title={"follow"} /> */}
       <Footer />
     </div>
   );

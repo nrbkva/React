@@ -1,6 +1,6 @@
 import classes from "./Button.module.css";
 
-const Button = ({ title }) => {
+const Button = ({ title, children }) => {
   return <button className="button">{title}</button>;
 };
 
