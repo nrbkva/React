@@ -1,12 +1,15 @@
-@import "../src/components/Header/Header.module.css";
-@import "../src/components/Button/Button.module.css";
-@import "../src/components/Footer/Footer.module.css";
-@import "../src/components/Main/Main.module.css";
-@import "../src/components/Text/Text.module.css";
-
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.title {
+  color: red;
+}
+
+.button {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
 }
